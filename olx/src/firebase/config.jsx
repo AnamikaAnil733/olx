@@ -4,7 +4,7 @@ import { getStorage } from "firebase/storage";
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyDIDfxWJiW9kWyY079kIljgwjqux5GtYcA",
+    apiKey: import.meta.env.VITE_API,
     authDomain: "olx-clone-91105.firebaseapp.com",
     projectId: "olx-clone-91105",
     storageBucket: "olx-clone-91105.firebasestorage.app",
