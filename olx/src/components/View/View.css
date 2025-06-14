@@ -1,0 +1,79 @@
+.viewParentDiv {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+  background-color: #f2f4f5;
+  flex-wrap: wrap;
+}
+
+.imageShowDiv {
+  flex: 1;
+  max-width: 600px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.imageShowDiv img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+.rightSection {
+  flex: 0.8;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.productDetails,
+.contactDetails {
+  background-color: white;
+  padding: 20px 24px;
+  border-radius: 8px;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.08);
+}
+
+.productDetails p {
+  font-size: 22px;
+  font-weight: 600;
+  color: #002f34;
+  margin: 8px 0;
+}
+
+.productDetails span {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  color: #406367;
+  margin-bottom: 4px;
+}
+
+.contactDetails p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #002f34;
+}
+
+.contactDetails p:first-child {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .viewParentDiv {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .imageShowDiv,
+  .rightSection {
+    max-width: 100%;
+  }
+}
