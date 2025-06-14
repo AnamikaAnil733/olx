@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import './Banner.css';
 import Arrow from '../../assets/Arrow'; 
 import bannerImage from '../../assets/banner copy.png'; 
-import { AuthContext } from '../../store/AuthContext';
+
 
 function Banner() {
  
